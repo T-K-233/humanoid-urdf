@@ -1,103 +1,268 @@
-<robot name="onshape">
-<link name="base_link">
-</link>
-<joint name="base_anchor_joint" type="fixed">
+<robot name="humanoid_v1">
+<link name="base_link"></link>
+<joint name="base_link_to_base" type="fixed">
 <parent link="base_link"/>
-<child link="body_1"/>
+<child link="hip_x_mount" />
+<origin rpy="0.0 0 0" xyz="0 0 0"/>
 </joint>
-<link name="body_1">
+<link name="hip_x_mount">
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/body.stl"/>
+<mesh filename="package://humanoid_v1/meshes/part_2.stl"/>
 </geometry>
-<material name="body_material">
-<color rgba="0.8 0.8 0.8 1.0"/>
+<material name="part_2_material">
+<color rgba="0 0 0 1.0"/>
 </material>
 </visual>
 <collision>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/body.stl"/>
+<mesh filename="package://humanoid_v1/meshes/part_2.stl"/>
 </geometry>
-<material name="body_material">
-<color rgba="0.8 0.8 0.8 1.0"/>
+<material name="part_2_material">
+<color rgba="0 0 0 1.0"/>
 </material>
 </collision>
-<inertial>
-<origin xyz="0.0375 0.0253843 0.0225241" rpy="0 0 0"/>
-<mass value="2.23874" />
-<inertia ixx="0.00206023" ixy="4.48497e-10"  ixz="6.47006e-11" iyy="0.00150691" iyz="-0.00028761" izz="0.00254354" />
-</inertial>
-</link>
-
-<link name="wheel_1">
 <visual>
-<origin xyz="0.02 -0.0325 -0.025" rpy="0 -0 0" />
+<origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/wheel.stl"/>
+<mesh filename="package://humanoid_v1/meshes/part_1.stl"/>
 </geometry>
-<material name="wheel_material">
-<color rgba="0.262745 0.282353 0.301961 1.0"/>
+<material name="part_1_material">
+<color rgba="0 0 0 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="0.02 -0.0325 -0.025" rpy="0 -0 0" />
+<origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/wheel.stl"/>
+<mesh filename="package://humanoid_v1/meshes/part_1.stl"/>
 </geometry>
-<material name="wheel_material">
-<color rgba="0.262745 0.282353 0.301961 1.0"/>
+<material name="part_1_material">
+<color rgba="0 0 0 1.0"/>
 </material>
 </collision>
-<inertial>
-<origin xyz="0.004 0 -3.46945e-18" rpy="0 0 0"/>
-<mass value="0.335419" />
-<inertia ixx="0.000345298" ixy="0"  ixz="0" iyy="0.000174367" iyz="0" izz="0.000174367" />
-</inertial>
-</link>
-
-<joint name="wheel1_speed" type="revolute">
-<origin xyz="-0.02 0.0325 0.025" rpy="0 -0 0" />
-<parent link="body_1" />
-<child link="wheel_1" />
-<axis xyz="-1 0 0"/>
-<limit upper="1" lower="-1" effort="1" velocity="20"/>
-<joint_properties friction="0.0"/>
-</joint>
-
-<link name="wheel_2">
 <visual>
-<origin xyz="0.012 -0.0325 -0.025" rpy="0 -0 0" />
+<origin xyz="0.065 1.30104e-18 -0.056" rpy="-6.0021e-16 -1.83761e-31 -1.5708" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/wheel.stl"/>
+<mesh filename="package://humanoid_v1/meshes/housing.stl"/>
 </geometry>
-<material name="wheel_material">
-<color rgba="0.262745 0.282353 0.301961 1.0"/>
+<material name="housing_material">
+<color rgba="0.964706 0.964706 0.952941 1.0"/>
 </material>
 </visual>
 <collision>
-<origin xyz="0.012 -0.0325 -0.025" rpy="0 -0 0" />
+<origin xyz="0.065 1.30104e-18 -0.056" rpy="-6.0021e-16 -1.83761e-31 -1.5708" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/wheel.stl"/>
+<mesh filename="package://humanoid_v1/meshes/housing.stl"/>
 </geometry>
-<material name="wheel_material">
-<color rgba="0.262745 0.282353 0.301961 1.0"/>
+<material name="housing_material">
+<color rgba="0.964706 0.964706 0.952941 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/part_4.stl"/>
+</geometry>
+<material name="part_4_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/part_4.stl"/>
+</geometry>
+<material name="part_4_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/x.stl"/>
+</geometry>
+<material name="x_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/x.stl"/>
+</geometry>
+<material name="x_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/z.stl"/>
+</geometry>
+<material name="z_material">
+<color rgba="0.231373 0.380392 0.705882 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/z.stl"/>
+</geometry>
+<material name="z_material">
+<color rgba="0.231373 0.380392 0.705882 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/part_3.stl"/>
+</geometry>
+<material name="part_3_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/part_3.stl"/>
+</geometry>
+<material name="part_3_material">
+<color rgba="0 0 0 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/part_4.stl"/>
+</geometry>
+<material name="part_4_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/part_4.stl"/>
+</geometry>
+<material name="part_4_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/part_5.stl"/>
+</geometry>
+<material name="part_5_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/part_5.stl"/>
+</geometry>
+<material name="part_5_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/y.stl"/>
+</geometry>
+<material name="y_material">
+<color rgba="0.372549 0.654902 0.239216 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/y.stl"/>
+</geometry>
+<material name="y_material">
+<color rgba="0.372549 0.654902 0.239216 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/part_6.stl"/>
+</geometry>
+<material name="part_6_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/part_6.stl"/>
+</geometry>
+<material name="part_6_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.065 1.30104e-18 -0.056" rpy="-6.0021e-16 -1.83761e-31 -1.5708" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/housing.stl"/>
+</geometry>
+<material name="housing_material">
+<color rgba="0.964706 0.964706 0.952941 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.065 1.30104e-18 -0.056" rpy="-6.0021e-16 -1.83761e-31 -1.5708" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/housing.stl"/>
+</geometry>
+<material name="housing_material">
+<color rgba="0.964706 0.964706 0.952941 1.0"/>
 </material>
 </collision>
 <inertial>
-<origin xyz="-0.004 6.93889e-18 -3.46945e-18" rpy="0 0 0"/>
-<mass value="0.335419" />
-<inertia ixx="0.000345298" ixy="0"  ixz="0" iyy="0.000174367" iyz="0" izz="0.000174367" />
+<origin xyz="0.0218905 -7.94313e-13 -0.012103" rpy="0 0 0"/>
+<mass value="0.325819" />
+<inertia ixx="0.000847428" ixy="1.47161e-14"  ixz="0.000181898" iyy="0.00117214" iyz="-1.18597e-14" izz="0.00157896" />
 </inertial>
 </link>
 
-<joint name="wheel2_speed" type="revolute">
-<origin xyz="0.095 0.0325 0.025" rpy="0 -0 0" />
-<parent link="body_1" />
-<child link="wheel_2" />
-<axis xyz="-1 -0 -0"/>
-<limit upper="1" lower="-1" effort="1" velocity="20"/>
+<link name="hip_y_mount">
+<visual>
+<origin xyz="0 0 0" rpy="-1.5708 -0 8.97521e-48" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/component1.stl"/>
+</geometry>
+<material name="component1_material">
+<color rgba="0.964706 0.964706 0.952941 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0 0 0" rpy="-1.5708 -0 8.97521e-48" />
+<geometry>
+<mesh filename="package://humanoid_v1/meshes/component1.stl"/>
+</geometry>
+<material name="component1_material">
+<color rgba="0.964706 0.964706 0.952941 1.0"/>
+</material>
+</collision>
+<inertial>
+<origin xyz="-1.12795e-08 3.38727e-09 -0.0357636" rpy="0 0 0"/>
+<mass value="0.0763972" />
+<inertia ixx="0.000122996" ixy="-1.23623e-11"  ixz="1.3626e-11" iyy="8.31952e-05" iyz="-6.33605e-12" izz="5.09352e-05" />
+</inertial>
+</link>
+
+<joint name="upperleg_x_r_joint" type="revolute">
+<origin xyz="0.08 -3.46945e-18 -0.056" rpy="-1.5708 1.83761e-31 1.5708" />
+<parent link="hip_x_mount" />
+<child link="hip_y_mount" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.5708" upper="1.5708"/>
 <joint_properties friction="0.0"/>
 </joint>
+
+
 </robot>

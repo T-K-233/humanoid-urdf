@@ -9,7 +9,7 @@
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_2.stl"/>
+<mesh filename="package:///part_2.stl"/>
 </geometry>
 <material name="part_2_material">
 <color rgba="0 0 0 1.0"/>
@@ -18,7 +18,7 @@
 <collision>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_2.stl"/>
+<mesh filename="package:///part_2.stl"/>
 </geometry>
 <material name="part_2_material">
 <color rgba="0 0 0 1.0"/>
@@ -27,7 +27,7 @@
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_1.stl"/>
+<mesh filename="package:///part_1.stl"/>
 </geometry>
 <material name="part_1_material">
 <color rgba="0 0 0 1.0"/>
@@ -36,7 +36,7 @@
 <collision>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_1.stl"/>
+<mesh filename="package:///part_1.stl"/>
 </geometry>
 <material name="part_1_material">
 <color rgba="0 0 0 1.0"/>
@@ -45,7 +45,7 @@
 <visual>
 <origin xyz="0.065 1.30104e-18 -0.056" rpy="-6.0021e-16 -1.83761e-31 -1.5708" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/housing.stl"/>
+<mesh filename="package:///housing.stl"/>
 </geometry>
 <material name="housing_material">
 <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -54,7 +54,7 @@
 <collision>
 <origin xyz="0.065 1.30104e-18 -0.056" rpy="-6.0021e-16 -1.83761e-31 -1.5708" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/housing.stl"/>
+<mesh filename="package:///housing.stl"/>
 </geometry>
 <material name="housing_material">
 <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -63,7 +63,7 @@
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_4.stl"/>
+<mesh filename="package:///part_4.stl"/>
 </geometry>
 <material name="part_4_material">
 <color rgba="0 0 0 1.0"/>
@@ -72,7 +72,7 @@
 <collision>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_4.stl"/>
+<mesh filename="package:///part_4.stl"/>
 </geometry>
 <material name="part_4_material">
 <color rgba="0 0 0 1.0"/>
@@ -81,7 +81,7 @@
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/x.stl"/>
+<mesh filename="package:///x.stl"/>
 </geometry>
 <material name="x_material">
 <color rgba="1 0 0 1.0"/>
@@ -90,7 +90,7 @@
 <collision>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/x.stl"/>
+<mesh filename="package:///x.stl"/>
 </geometry>
 <material name="x_material">
 <color rgba="1 0 0 1.0"/>
@@ -99,7 +99,7 @@
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/z.stl"/>
+<mesh filename="package:///z.stl"/>
 </geometry>
 <material name="z_material">
 <color rgba="0.231373 0.380392 0.705882 1.0"/>
@@ -108,7 +108,7 @@
 <collision>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/z.stl"/>
+<mesh filename="package:///z.stl"/>
 </geometry>
 <material name="z_material">
 <color rgba="0.231373 0.380392 0.705882 1.0"/>
@@ -117,7 +117,7 @@
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_3.stl"/>
+<mesh filename="package:///part_3.stl"/>
 </geometry>
 <material name="part_3_material">
 <color rgba="0 0 0 1.0"/>
@@ -126,7 +126,7 @@
 <collision>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_3.stl"/>
+<mesh filename="package:///part_3.stl"/>
 </geometry>
 <material name="part_3_material">
 <color rgba="0 0 0 1.0"/>
@@ -135,7 +135,7 @@
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_4.stl"/>
+<mesh filename="package:///part_4.stl"/>
 </geometry>
 <material name="part_4_material">
 <color rgba="0.917647 0.917647 0.917647 1.0"/>
@@ -144,7 +144,7 @@
 <collision>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_4.stl"/>
+<mesh filename="package:///part_4.stl"/>
 </geometry>
 <material name="part_4_material">
 <color rgba="0.917647 0.917647 0.917647 1.0"/>
@@ -153,7 +153,7 @@
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_5.stl"/>
+<mesh filename="package:///part_5.stl"/>
 </geometry>
 <material name="part_5_material">
 <color rgba="0.917647 0.917647 0.917647 1.0"/>
@@ -162,7 +162,7 @@
 <collision>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_5.stl"/>
+<mesh filename="package:///part_5.stl"/>
 </geometry>
 <material name="part_5_material">
 <color rgba="0.917647 0.917647 0.917647 1.0"/>
@@ -171,7 +171,7 @@
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/y.stl"/>
+<mesh filename="package:///y.stl"/>
 </geometry>
 <material name="y_material">
 <color rgba="0.372549 0.654902 0.239216 1.0"/>
@@ -180,7 +180,7 @@
 <collision>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/y.stl"/>
+<mesh filename="package:///y.stl"/>
 </geometry>
 <material name="y_material">
 <color rgba="0.372549 0.654902 0.239216 1.0"/>
@@ -189,7 +189,7 @@
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_6.stl"/>
+<mesh filename="package:///part_6.stl"/>
 </geometry>
 <material name="part_6_material">
 <color rgba="0.917647 0.917647 0.917647 1.0"/>
@@ -198,7 +198,7 @@
 <collision>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/part_6.stl"/>
+<mesh filename="package:///part_6.stl"/>
 </geometry>
 <material name="part_6_material">
 <color rgba="0.917647 0.917647 0.917647 1.0"/>
@@ -207,7 +207,7 @@
 <visual>
 <origin xyz="0.065 1.30104e-18 -0.056" rpy="-6.0021e-16 -1.83761e-31 -1.5708" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/housing.stl"/>
+<mesh filename="package:///housing.stl"/>
 </geometry>
 <material name="housing_material">
 <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -216,7 +216,7 @@
 <collision>
 <origin xyz="0.065 1.30104e-18 -0.056" rpy="-6.0021e-16 -1.83761e-31 -1.5708" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/housing.stl"/>
+<mesh filename="package:///housing.stl"/>
 </geometry>
 <material name="housing_material">
 <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -233,7 +233,7 @@
 <visual>
 <origin xyz="0 0 0" rpy="-1.5708 -0 8.97521e-48" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/component1.stl"/>
+<mesh filename="package:///component1.stl"/>
 </geometry>
 <material name="component1_material">
 <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -242,7 +242,7 @@
 <collision>
 <origin xyz="0 0 0" rpy="-1.5708 -0 8.97521e-48" />
 <geometry>
-<mesh filename="package://humanoid_v1/meshes/component1.stl"/>
+<mesh filename="package:///component1.stl"/>
 </geometry>
 <material name="component1_material">
 <color rgba="0.964706 0.964706 0.952941 1.0"/>

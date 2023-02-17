@@ -1,0 +1,10 @@
+{
+    "documentId": "294deaaae60e75427df1e1d7",
+    "outputFormat": "urdf",
+    "assemblyName": "Assembly 1",
+    "jointMaxEffort": 1,
+    "jointMaxVelocity": 20,
+    "robotName": "humanoid_v1",
+    "useFixedLinks": false,
+    "addDummyBaseLink": true
+}

@@ -1,0 +1,47 @@
+[0.014s] Invoking command in '/home/tk/Desktop/humanoid-urdf/build/humanoid_v1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/tk/Desktop/humanoid-urdf/build/humanoid_v1 -- -j16 -l16
+[0.039s] Invoked command in '/home/tk/Desktop/humanoid-urdf/build/humanoid_v1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/tk/Desktop/humanoid-urdf/build/humanoid_v1 -- -j16 -l16
+[0.057s] Invoking command in '/home/tk/Desktop/humanoid-urdf/build/humanoid_v1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/tk/Desktop/humanoid-urdf/build/humanoid_v1
+[0.061s] -- Install configuration: ""
+[0.061s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/config
+[0.061s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/launch
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/launch/humanoid_v1.launch.py
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/maps
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/x.stl
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/component1.stl
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/part_1.stl
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/part_5.stl
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/part_6.stl
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/part_3.stl
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/z.stl
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/part_2.stl
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/part_4.stl
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/component1 copy.stl
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/housing copy.stl
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/y.stl
+[0.062s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/housing.stl
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/models
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/params
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/rviz
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/rviz/rviz_basic_settings.rviz
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/src
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/urdf
+[0.063s] -- Installing: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/urdf/robot.urdf.xacro
+[0.063s] -- Installing: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/urdf/robot.urdf copy.xml
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/worlds
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/ament_index/resource_index/package_run_dependencies/humanoid_v1
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/ament_index/resource_index/parent_prefix_path/humanoid_v1
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/environment/ament_prefix_path.sh
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/environment/ament_prefix_path.dsv
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/environment/path.sh
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/environment/path.dsv
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/local_setup.bash
+[0.063s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/local_setup.sh
+[0.064s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/local_setup.zsh
+[0.064s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/local_setup.dsv
+[0.064s] -- Installing: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/package.dsv
+[0.064s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/ament_index/resource_index/packages/humanoid_v1
+[0.065s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/cmake/humanoid_v1Config.cmake
+[0.065s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/cmake/humanoid_v1Config-version.cmake
+[0.065s] -- Up-to-date: /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/package.xml
+[0.065s] Invoked command in '/home/tk/Desktop/humanoid-urdf/build/humanoid_v1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/tk/Desktop/humanoid-urdf/build/humanoid_v1
