@@ -1,0 +1,9 @@
+/home/tk/Desktop/humanoid-urdf/build/humanoid_v1/CMakeFiles/uninstall.dir
+/home/tk/Desktop/humanoid-urdf/build/humanoid_v1/CMakeFiles/humanoid_v1_uninstall.dir
+/home/tk/Desktop/humanoid-urdf/build/humanoid_v1/CMakeFiles/test.dir
+/home/tk/Desktop/humanoid-urdf/build/humanoid_v1/CMakeFiles/edit_cache.dir
+/home/tk/Desktop/humanoid-urdf/build/humanoid_v1/CMakeFiles/rebuild_cache.dir
+/home/tk/Desktop/humanoid-urdf/build/humanoid_v1/CMakeFiles/list_install_components.dir
+/home/tk/Desktop/humanoid-urdf/build/humanoid_v1/CMakeFiles/install.dir
+/home/tk/Desktop/humanoid-urdf/build/humanoid_v1/CMakeFiles/install/local.dir
+/home/tk/Desktop/humanoid-urdf/build/humanoid_v1/CMakeFiles/install/strip.dir
