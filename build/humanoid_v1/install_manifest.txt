@@ -44,6 +44,7 @@
 /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/part_2.stl
 /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/extrusion_150mm.stl
 /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/hipmountx.stl
+/home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/arm.stl
 /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/5010motorrotor.stl
 /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/lowerlegz_2_visual.stl
 /home/tk/Desktop/humanoid-urdf/install/humanoid_v1/share/humanoid_v1/meshes/part_4.stl

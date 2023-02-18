@@ -54,6 +54,7 @@
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for housing -->
 <collision>
 <origin xyz="0.066 0 -0.056" rpy="-0 -1.5708 0" />
@@ -94,6 +95,7 @@
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for extrusion_150mm -->
 <collision>
 <origin xyz="0 0.06 0" rpy="0 -0 0" />
@@ -141,6 +143,7 @@
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for extrusion_100mm -->
 <collision>
 <origin xyz="0.065 0 0" rpy="0 -0 0" />
@@ -154,6 +157,7 @@
 <box size="0.02 0.1 0.02" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for part_1 -->
 <collision>
 <origin xyz="-0.034 0 -0.056" rpy="-0 -1.5708 0" />
@@ -187,51 +191,53 @@
 </material>
 </collision>
 <inertial>
-<origin xyz="6.62475e-18 -0.010053 -0.00364106" rpy="0 0 0"/>
-<mass value="2.09484" />
-<inertia ixx="0.0277752" ixy="4.21566e-12"  ixz="1.5992e-18" iyy="0.0322146" iyz="0.00449915" izz="0.00921242" />
+<origin xyz="2.1706e-17 -0.0296036 0.154811" rpy="0 0 0"/>
+<mass value="5.09484" />
+<inertia ixx="0.140764" ixy="0.00418147"  ixz="4.66207e-17" iyy="0.230113" iyz="0.0155201" izz="0.0977939" />
 </inertial>
 </link>
 
 <link name="upperlegx">
 <!-- Shapes for part_1 -->
 <collision>
-<origin xyz="0.0315 -4.9426e-15 -0.052" rpy="-1.5708 1.80744e-13 1.5708" />
+<origin xyz="0.0315 -6.45678e-15 -0.052" rpy="-1.5708 2.22937e-13 1.5708" />
 <geometry>
 <cylinder length="0.018" radius="0.024" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="-0.0005 -4.8353e-15 -0.052" rpy="1.5708 1.22125e-15 1.5708" />
+<origin xyz="-0.0005 -6.25139e-15 -0.052" rpy="1.5708 3.60869e-14 1.5708" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for motor_shell -->
 <collision>
-<origin xyz="0.0305 -5.23454e-15 -0.052" rpy="1.5708 1.22125e-15 1.5708" />
+<origin xyz="0.0305 -7.52653e-15 -0.052" rpy="1.5708 3.60869e-14 1.5708" />
 <geometry>
 <cylinder length="0.03" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="-0.0005 -4.8353e-15 -0.052" rpy="1.5708 1.22125e-15 1.5708" />
+<origin xyz="-0.0005 -6.25139e-15 -0.052" rpy="1.5708 3.60869e-14 1.5708" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for part_2 -->
 <collision>
-<origin xyz="0.0255 -4.87277e-15 -0.052" rpy="-1.5708 1.57763e-13 1.5708" />
+<origin xyz="0.0255 -6.48204e-15 -0.052" rpy="-1.5708 2.00622e-13 1.5708" />
 <geometry>
 <cylinder length="0.022" radius="0.036" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="-0.0005 -4.8353e-15 -0.052" rpy="1.5708 1.22125e-15 1.5708" />
+<origin xyz="-0.0005 -6.25139e-15 -0.052" rpy="1.5708 3.60869e-14 1.5708" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
@@ -262,44 +268,46 @@
 </link>
 
 <link name="upperlegy">
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for part_2 -->
 <collision>
-<origin xyz="-1.74434e-16 0.099 -0.0175" rpy="-1.5708 -1.68759e-14 7.69755e-15" />
+<origin xyz="-9.63409e-15 0.099 -0.0175" rpy="-1.5708 -1.68759e-14 7.69755e-15" />
 <geometry>
 <cylinder length="0.022" radius="0.036" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="-3.79141e-16 0.125 -0.0175" rpy="1.5708 3.15544e-30 7.69755e-15" />
+<origin xyz="-9.84879e-15 0.125 -0.0175" rpy="1.5708 -1.57772e-30 7.69755e-15" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="-3.79141e-16 0.125 -0.0175" rpy="1.5708 3.15544e-30 7.69755e-15" />
+<origin xyz="-9.84879e-15 0.125 -0.0175" rpy="1.5708 -1.57772e-30 7.69755e-15" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for part_1 -->
 <collision>
-<origin xyz="-1.27787e-16 0.093 -0.0175" rpy="-1.5708 3.15544e-30 7.69755e-15" />
+<origin xyz="-9.58944e-15 0.093 -0.0175" rpy="-1.5708 -1.57772e-30 7.69755e-15" />
 <geometry>
 <cylinder length="0.018" radius="0.024" />
 </geometry>
 </collision>
 <!-- Shapes for motor_shell -->
 <collision>
-<origin xyz="-1.30192e-16 0.094 -0.0175" rpy="1.5708 3.15544e-30 7.69755e-15" />
+<origin xyz="-9.61016e-15 0.094 -0.0175" rpy="1.5708 -1.57772e-30 7.69755e-15" />
 <geometry>
 <cylinder length="0.03" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="-3.79141e-16 0.125 -0.0175" rpy="1.5708 3.15544e-30 7.69755e-15" />
+<origin xyz="-9.84879e-15 0.125 -0.0175" rpy="1.5708 -1.57772e-30 7.69755e-15" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
@@ -323,51 +331,67 @@
 </material>
 </collision>
 <inertial>
-<origin xyz="-3.43844e-09 0.109524 -0.0175" rpy="0 0 0"/>
+<origin xyz="-3.43845e-09 0.109524 -0.0175" rpy="0 0 0"/>
 <mass value="0.65579" />
 <inertia ixx="0.000501677" ixy="-1.06691e-07"  ixz="-1.61313e-12" iyy="0.000618053" iyz="2.08745e-12" izz="0.000501763" />
 </inertial>
 </link>
 
 <link name="upperlegz">
+<!-- Shapes for extrusion__length_0.2+meter -->
+<collision>
+<origin xyz="-0.02 2.84367e-20 0.108" rpy="-3.14159 -1.5708 0" />
+<geometry>
+<box size="0.2 0.02 0.02" />
+</geometry>
+</collision>
 <!-- Shapes for motor_shell -->
 <collision>
-<origin xyz="-0.011 1.22216e-18 0.288" rpy="-0 -1.5708 0" />
+<origin xyz="-0.011 -3.82134e-19 0.288" rpy="-0 -1.5708 0" />
 <geometry>
 <cylinder length="0.03" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for part_2 -->
 <collision>
-<origin xyz="-0.006 -1.60178e-18 0.288" rpy="-3.14159 -1.5708 0" />
+<origin xyz="-0.006 -3.20607e-18 0.288" rpy="-3.14159 -1.5708 0" />
 <geometry>
 <cylinder length="0.022" radius="0.036" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="0.02 1.22216e-18 0.288" rpy="-0 -1.5708 0" />
+<origin xyz="0.02 -3.82134e-19 0.288" rpy="-0 -1.5708 0" />
+<geometry>
+<cylinder length="0.02" radius="0.045" />
+</geometry>
+</collision>
+<!-- Shapes for extrusion__length_0.2+meter -->
+<collision>
+<origin xyz="0.02 -5.44764e-19 0.108" rpy="-3.14159 -1.5708 0" />
+<geometry>
+<box size="0.2 0.02 0.02" />
+</geometry>
+</collision>
+<!-- Shapes for housing -->
+<collision>
+<origin xyz="0.02 -3.82134e-19 0.288" rpy="-0 -1.5708 0" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="0.02 1.22216e-18 0.288" rpy="-0 -1.5708 0" />
-<geometry>
-<cylinder length="0.02" radius="0.045" />
-</geometry>
-</collision>
-<!-- Shapes for housing -->
-<collision>
-<origin xyz="0.02 1.22216e-18 0.288" rpy="-0 -1.5708 0" />
+<origin xyz="0.02 -3.82134e-19 0.288" rpy="-0 -1.5708 0" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for part_1 -->
 <collision>
-<origin xyz="-0.012 1.22134e-17 0.288" rpy="-3.14159 -1.5708 0" />
+<origin xyz="-0.012 1.06091e-17 0.288" rpy="-3.14159 -1.5708 0" />
 <geometry>
 <cylinder length="0.018" radius="0.024" />
 </geometry>
@@ -398,34 +422,36 @@
 </link>
 
 <link name="lowerlegx">
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="1.19838e-19 0.123 0.037" rpy="1.5708 1.5708 0" />
+<origin xyz="-3.10811e-30 0.123 0.037" rpy="1.5708 1.5708 0" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="1.19838e-19 0.123 0.037" rpy="1.5708 1.5708 0" />
+<origin xyz="-3.10811e-30 0.123 0.037" rpy="1.5708 1.5708 0" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="1.19838e-19 0.123 0.037" rpy="1.5708 1.5708 0" />
+<origin xyz="-3.10811e-30 0.123 0.037" rpy="1.5708 1.5708 0" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for motor_shell -->
 <collision>
-<origin xyz="1.19838e-19 0.092 0.037" rpy="1.5708 1.5708 0" />
+<origin xyz="-3.01029e-30 0.092 0.037" rpy="1.5708 1.5708 0" />
 <geometry>
 <cylinder length="0.03" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
@@ -454,28 +480,37 @@
 <link name="lowerlegz">
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="-0.0015 -3.79149e-16 -0.2" rpy="3.14159 1.5708 0" />
+<origin xyz="-0.0015 -2.36789e-18 -0.2" rpy="3.14159 1.5708 0" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="-0.0015 -3.79149e-16 -0.2" rpy="3.14159 1.5708 0" />
+<origin xyz="-0.0015 -2.36789e-18 -0.2" rpy="3.14159 1.5708 0" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
+</geometry>
+</collision>
+<!-- Shapes for cycloidal_disk -->
+<!-- Shapes for extrusion__length_0.15+meter -->
+<collision>
+<origin xyz="2.77556e-17 1.6263e-19 -0.085" rpy="-0 1.5708 0" />
+<geometry>
+<box size="0.15 0.02 0.02" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="-0.0015 -3.79149e-16 -0.2" rpy="3.14159 1.5708 0" />
+<origin xyz="-0.0015 -2.36789e-18 -0.2" rpy="3.14159 1.5708 0" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for motor_shell -->
 <collision>
-<origin xyz="-0.0325 -3.79149e-16 -0.2" rpy="3.14159 1.5708 0" />
+<origin xyz="-0.0325 -2.36789e-18 -0.2" rpy="3.14159 1.5708 0" />
 <geometry>
 <cylinder length="0.03" radius="0.045" />
 </geometry>
@@ -499,13 +534,20 @@
 </material>
 </collision>
 <inertial>
-<origin xyz="-0.0111152 -7.92875e-12 -0.158926" rpy="0 0 0"/>
+<origin xyz="-0.0111152 -7.92857e-12 -0.158926" rpy="0 0 0"/>
 <mass value="0.457786" />
 <inertia ixx="0.00222732" ixy="-2.17139e-12"  ixz="-0.000217459" iyy="0.00224323" iyz="5.16092e-09" izz="0.000243554" />
 </inertial>
 </link>
 
 <link name="feetx">
+<!-- Shapes for feet -->
+<collision>
+<origin xyz="0 0 0" rpy="-1.5708 -1.5708 0" />
+<geometry>
+<sphere radius="0.01" />
+</geometry>
+</collision>
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
@@ -515,15 +557,6 @@
 <color rgba="0.8 0.8 0.8 1.0"/>
 </material>
 </visual>
-<collision>
-<origin xyz="0 0 0" rpy="0 -0 0" />
-<geometry>
-<mesh filename="package:///feetx_collision.stl"/>
-</geometry>
-<material name="feetx_material">
-<color rgba="0.5 0.5 0.5 1.0"/>
-</material>
-</collision>
 <inertial>
 <origin xyz="0.0223276 -0.0258701 0.00228741" rpy="0 0 0"/>
 <mass value="0.0599595" />
@@ -539,6 +572,7 @@
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for housing -->
 <collision>
 <origin xyz="8.32667e-19 -5.82867e-18 -0.017" rpy="3.14159 -1.66533e-16 -2.52117e-30" />
@@ -553,6 +587,7 @@
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for motor_shell -->
 <collision>
 <origin xyz="2.55351e-18 -1.78746e-17 -0.048" rpy="3.14159 -1.66533e-16 -2.52117e-30" />
@@ -590,65 +625,66 @@
 <parent link="feetx" />
 <child link="feety" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-1.5708" upper="1.5708"/>
+<limit effort="1" velocity="20" lower="-0.261799" upper="0.261799"/>
 <joint_properties friction="0.0"/>
 </joint>
 
 <joint name="feet_x_r" type="revolute">
-<origin xyz="0.0155 -1.75994e-16 -0.2" rpy="1.5708 -5.24209e-17 -1.5708" />
+<origin xyz="0.0155 -2.36789e-18 -0.2" rpy="1.5708 -5.24209e-17 -1.5708" />
 <parent link="lowerlegz" />
 <child link="feetx" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-1.5708" upper="1.5708"/>
+<limit effort="1" velocity="20" lower="-0.785398" upper="0.785398"/>
 <joint_properties friction="0.0"/>
 </joint>
 
 <joint name="lowerleg_z_r" type="revolute">
-<origin xyz="-1.3317e-17 0.14 0.037" rpy="1.5708 -1.5708 0" />
+<origin xyz="-3.15544e-30 0.14 0.037" rpy="1.5708 -1.5708 0" />
 <parent link="lowerlegx" />
 <child link="lowerlegz" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-1.5708" upper="1.5708"/>
+<limit effort="1" velocity="20" lower="-0.785398" upper="0.785398"/>
 <joint_properties friction="0.0"/>
 </joint>
 
 <joint name="lowerleg_x_r" type="revolute">
-<origin xyz="0.037 3.33978e-19 0.288" rpy="1.5708 4.44089e-16 -1.5708" />
+<origin xyz="0.037 9.07461e-19 0.288" rpy="1.5708 9.49411e-16 -1.5708" />
 <parent link="upperlegz" />
 <child link="lowerlegx" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-1.5708" upper="1.5708"/>
+<limit effort="1" velocity="20" lower="-0.174533" upper="1.74533"/>
 <joint_properties friction="0.0"/>
 </joint>
 
 <joint name="upperleg_z_r" type="revolute">
-<origin xyz="-5.27356e-16 0.142 -0.0175" rpy="-1.5708 -1.65983e-14 7.69755e-15" />
+<origin xyz="-9.99201e-15 0.142 -0.0175" rpy="-1.5708 1.15338e-14 7.69755e-15" />
 <parent link="upperlegy" />
 <child link="upperlegz" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-0.785398" upper="0.785398"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="upperleg_y_r" type="revolute">
+<origin xyz="-0.0175 -5.52336e-15 -0.052" rpy="-3.14159 1.5708 0" />
+<parent link="upperlegx" />
+<child link="upperlegy" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.0472" upper="0.261799"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="upperleg_x_r" type="revolute">
+<origin xyz="0.083 2.90452e-17 -0.056" rpy="1.5708 -1.06581e-14 -1.5708" />
+<parent link="base" />
+<child link="upperlegx" />
 <axis xyz="0 0 1"/>
 <limit effort="1" velocity="20" lower="-1.5708" upper="1.5708"/>
 <joint_properties friction="0.0"/>
 </joint>
 
-<joint name="upperleg_y_r" type="revolute">
-<origin xyz="-0.0175 -4.54498e-15 -0.052" rpy="-3.14159 1.5708 0" />
-<parent link="upperlegx" />
-<child link="upperlegy" />
-<axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-6.28319" upper="6.28319"/>
-<joint_properties friction="0.0"/>
-</joint>
-
-<joint name="upperleg_x_r" type="revolute">
-<origin xyz="0.083 2.90452e-17 -0.056" rpy="1.5708 -3.55271e-15 -1.5708" />
-<parent link="base" />
-<child link="upperlegx" />
-<axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-6.28319" upper="6.28319"/>
-<joint_properties friction="0.0"/>
-</joint>
-
 <link name="upperlegx_2">
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for part_2 -->
 <collision>
 <origin xyz="0.0255 -2.6229e-16 -0.052" rpy="-1.5708 2.15336e-14 1.5708" />
@@ -656,6 +692,7 @@
 <cylinder length="0.022" radius="0.036" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for part_1 -->
 <collision>
 <origin xyz="0.0315 1.06598e-15 -0.052" rpy="-1.5708 -2.00309e-15 1.5708" />
@@ -719,42 +756,44 @@
 <link name="upperlegy_2">
 <!-- Shapes for motor_shell -->
 <collision>
-<origin xyz="-1.17758e-16 0.094 -0.0175" rpy="1.5708 7.88861e-31 7.69755e-15" />
+<origin xyz="-2.11616e-15 0.094 -0.0175" rpy="1.5708 7.88861e-31 7.69755e-15" />
 <geometry>
 <cylinder length="0.03" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for part_2 -->
 <collision>
-<origin xyz="-1.41683e-16 0.099 -0.0175" rpy="-1.5708 -2.43677e-15 7.69755e-15" />
+<origin xyz="-2.14008e-15 0.099 -0.0175" rpy="-1.5708 -2.43677e-15 7.69755e-15" />
 <geometry>
 <cylinder length="0.022" radius="0.036" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="-3.56382e-16 0.125 -0.0175" rpy="1.5708 7.88861e-31 7.69755e-15" />
+<origin xyz="-2.35478e-15 0.125 -0.0175" rpy="1.5708 7.88861e-31 7.69755e-15" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="-3.56382e-16 0.125 -0.0175" rpy="1.5708 7.88861e-31 7.69755e-15" />
+<origin xyz="-2.35478e-15 0.125 -0.0175" rpy="1.5708 7.88861e-31 7.69755e-15" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for part_1 -->
 <collision>
-<origin xyz="-9.70335e-17 0.093 -0.0175" rpy="-1.5708 7.88861e-31 7.69755e-15" />
+<origin xyz="-2.09543e-15 0.093 -0.0175" rpy="-1.5708 7.88861e-31 7.69755e-15" />
 <geometry>
 <cylinder length="0.018" radius="0.024" />
 </geometry>
 </collision>
 <!-- Shapes for housing -->
 <collision>
-<origin xyz="-3.56382e-16 0.125 -0.0175" rpy="1.5708 7.88861e-31 7.69755e-15" />
+<origin xyz="-2.35478e-15 0.125 -0.0175" rpy="1.5708 7.88861e-31 7.69755e-15" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
 </geometry>
@@ -778,13 +817,21 @@
 </material>
 </collision>
 <inertial>
-<origin xyz="-3.43844e-09 0.109524 -0.0175" rpy="0 0 0"/>
+<origin xyz="-3.43845e-09 0.109524 -0.0175" rpy="0 0 0"/>
 <mass value="0.65579" />
 <inertia ixx="0.000501677" ixy="-1.06691e-07"  ixz="-1.61313e-12" iyy="0.000618053" iyz="2.08745e-12" izz="0.000501763" />
 </inertial>
 </link>
 
 <link name="upperlegz_copy_1">
+<!-- Shapes for extrusion__length_0.2+meter -->
+<collision>
+<origin xyz="-0.02 -4.996e-18 0.108" rpy="3.14159 -1.5708 0" />
+<geometry>
+<box size="0.2 0.02 0.02" />
+</geometry>
+</collision>
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for housing -->
 <collision>
 <origin xyz="-0.02 -4.996e-18 0.288" rpy="3.14159 -1.5708 0" />
@@ -827,6 +874,14 @@
 <cylinder length="0.03" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for extrusion__length_0.2+meter -->
+<collision>
+<origin xyz="0.02 4.996e-18 0.108" rpy="3.14159 -1.5708 0" />
+<geometry>
+<box size="0.2 0.02 0.02" />
+</geometry>
+</collision>
+<!-- Shapes for cycloidal_disk -->
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
@@ -853,6 +908,7 @@
 </link>
 
 <link name="lowerlegx_2">
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for housing -->
 <collision>
 <origin xyz="-5.77316e-18 0.123 0.037" rpy="1.5708 1.5708 0" />
@@ -874,6 +930,7 @@
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for motor_shell -->
 <collision>
 <origin xyz="-5.77316e-18 0.092 0.037" rpy="1.5708 1.5708 0" />
@@ -907,6 +964,7 @@
 </link>
 
 <link name="lowerlegz_2">
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for housing -->
 <collision>
 <origin xyz="-0.0015 -1.91431e-17 -0.2" rpy="-3.14159 1.5708 0" />
@@ -926,6 +984,13 @@
 <origin xyz="-0.0015 -1.91431e-17 -0.2" rpy="-3.14159 1.5708 0" />
 <geometry>
 <cylinder length="0.02" radius="0.045" />
+</geometry>
+</collision>
+<!-- Shapes for extrusion__length_0.15+meter -->
+<collision>
+<origin xyz="-5.98019e-31 -1.13643e-17 -0.085" rpy="-1.2326e-31 1.5708 0" />
+<geometry>
+<box size="0.15 0.02 0.02" />
 </geometry>
 </collision>
 <!-- Shapes for motor_shell -->
@@ -935,6 +1000,7 @@
 <cylinder length="0.03" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
 <visual>
 <origin xyz="0 0 0" rpy="0 -0 0" />
 <geometry>
@@ -1001,6 +1067,8 @@
 <cylinder length="0.02" radius="0.045" />
 </geometry>
 </collision>
+<!-- Shapes for cycloidal_disk -->
+<!-- Shapes for cycloidal_disk -->
 <!-- Shapes for motor_shell -->
 <collision>
 <origin xyz="0 -7.25752e-32 -0.048" rpy="3.14159 -2.22045e-16 7.26717e-31" />
@@ -1045,7 +1113,7 @@
 <parent link="feetx_copy_1" />
 <child link="feety_2" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-1.5708" upper="1.5708"/>
+<limit effort="1" velocity="20" lower="-0.261799" upper="0.261799"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -1054,7 +1122,7 @@
 <parent link="lowerlegz_2" />
 <child link="feetx_copy_1" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-1.5708" upper="1.5708"/>
+<limit effort="1" velocity="20" lower="-0.785398" upper="0.785398"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -1063,7 +1131,7 @@
 <parent link="lowerlegx_2" />
 <child link="lowerlegz_2" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-1.5708" upper="1.5708"/>
+<limit effort="1" velocity="20" lower="-0.785398" upper="0.785398"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -1072,25 +1140,25 @@
 <parent link="upperlegz_copy_1" />
 <child link="lowerlegx_2" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-1.5708" upper="1.5708"/>
+<limit effort="1" velocity="20" lower="-1.74533" upper="0.174533"/>
 <joint_properties friction="0.0"/>
 </joint>
 
 <joint name="upperleg_z_l" type="revolute">
-<origin xyz="-4.71845e-16 0.142 -0.0175" rpy="-1.5708 -2.15921e-15 7.69755e-15" />
+<origin xyz="-2.47025e-15 0.142 -0.0175" rpy="-1.5708 -2.15921e-15 7.69755e-15" />
 <parent link="upperlegy_2" />
 <child link="upperlegz_copy_1" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-1.5708" upper="1.5708"/>
+<limit effort="1" velocity="20" lower="-0.785398" upper="0.785398"/>
 <joint_properties friction="0.0"/>
 </joint>
 
 <joint name="upperleg_y_l" type="revolute">
-<origin xyz="-0.0175 -4.16334e-17 -0.052" rpy="6.12323e-17 -1.5708 0" />
+<origin xyz="-0.0175 1.38778e-17 -0.052" rpy="6.12323e-17 -1.5708 0" />
 <parent link="upperlegx_2" />
 <child link="upperlegy_2" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-6.28319" upper="6.28319"/>
+<limit effort="1" velocity="20" lower="-0.261799" upper="1.0472"/>
 <joint_properties friction="0.0"/>
 </joint>
 
@@ -1099,7 +1167,7 @@
 <parent link="base" />
 <child link="upperlegx_2" />
 <axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" lower="-6.28319" upper="6.28319"/>
+<limit effort="1" velocity="20" lower="-1.5708" upper="1.5708"/>
 <joint_properties friction="0.0"/>
 </joint>
 
