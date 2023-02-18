@@ -1,13 +1,14 @@
 {
     "configuration": "default",
-    "documentId": "294deaaae60e75427df1e1d7",
-    "documentMicroversion": "eb73ad505ef87e33ae8a7f1b",
-    "elementId": "d6ada0417e40b7f54df3de8e",
+    "documentId": "8b69ea3293a8d022331184bd",
+    "documentMicroversion": "1b62197a1ffa104fe55d99b9",
+    "documentVersion": "01428a7d2494a3345ae6d096",
+    "elementId": "879951617d44cead46897fab",
     "fullConfiguration": "default",
-    "id": "M4hbl5zKMIGjh3IVu",
+    "id": "MDvrOAaV7GO/wfj35",
     "isStandardContent": false,
-    "name": "Housing <1>",
-    "partId": "JFD",
+    "name": "Housing <3>",
+    "partId": "JFz",
     "suppressed": false,
     "type": "Part"
 }

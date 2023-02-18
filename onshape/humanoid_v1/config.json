@@ -4,7 +4,13 @@
     "assemblyName": "Assembly 1",
     "jointMaxEffort": 1,
     "jointMaxVelocity": 20,
+    "ignore": [],
+    "color": [0.8, 0.8, 0.8],
+    "addDummyBaseLink": true,
     "robotName": "humanoid_v1",
     "useFixedLinks": false,
-    "addDummyBaseLink": true
+    "mergeSTLs": "all",
+    "mergeSTLsCollisions": true,
+    "simplifySTLs": "no",
+    "maxSTLSize": 3
 }
