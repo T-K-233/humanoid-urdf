@@ -1,12 +1,12 @@
 {
     "configuration": "length=0.2+meter",
     "documentId": "294deaaae60e75427df1e1d7",
-    "documentMicroversion": "fb9e66a5443ea43be004e13a",
+    "documentMicroversion": "bfb213f75792ee6d65537e17",
     "elementId": "410ec71a7b03ab499e58028e",
     "fullConfiguration": "length=0.2+meter",
     "id": "MwWT5ObwiW6WMIv6S",
     "isStandardContent": false,
-    "name": "Part 1 <1>",
+    "name": "Extrusion <1>",
     "partId": "JSD",
     "suppressed": false,
     "type": "Part"

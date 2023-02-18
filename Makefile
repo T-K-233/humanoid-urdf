@@ -18,3 +18,6 @@ ros-clean:
 ros-run:
 	ros2 launch humanoid_v1 humanoid_v1.launch.py
 
+pybullet-run:
+	onshape-to-robot-bullet onshape/humanoid_v1
+
