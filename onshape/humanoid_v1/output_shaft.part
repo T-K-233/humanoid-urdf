@@ -1,14 +1,14 @@
 {
     "configuration": "default",
-    "documentId": "8b69ea3293a8d022331184bd",
-    "documentMicroversion": "1b62197a1ffa104fe55d99b9",
-    "documentVersion": "01428a7d2494a3345ae6d096",
-    "elementId": "879951617d44cead46897fab",
+    "documentId": "784e7a69487a6a4d14a7ff30",
+    "documentMicroversion": "91fa3349311d801116ac5d5e",
+    "documentVersion": "890d84e72e24bcf103234aa0",
+    "elementId": "2420e96d30824b2d99136fc3",
     "fullConfiguration": "default",
-    "id": "MFZPUaOChweP8dD4Z",
+    "id": "Mzv2EGj6P50nFQZOj",
     "isStandardContent": false,
-    "name": "Output Shaft <1>",
-    "partId": "JFL",
+    "name": "Output Shaft <3>",
+    "partId": "JFT",
     "suppressed": false,
     "type": "Part"
 }

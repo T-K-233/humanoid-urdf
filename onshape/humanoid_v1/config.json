@@ -2,6 +2,7 @@
     "documentId": "294deaaae60e75427df1e1d7",
     "outputFormat": "urdf",
     "assemblyName": "Assembly 1",
+    "useScads": true,
     "jointMaxEffort": 1,
     "jointMaxVelocity": 20,
     "ignore": [],
@@ -10,7 +11,7 @@
     "robotName": "humanoid_v1",
     "useFixedLinks": false,
     "mergeSTLs": "all",
-    "mergeSTLsCollisions": true,
+    "mergeSTLsCollisions": false,
     "simplifySTLs": "no",
     "maxSTLSize": 3
 }
